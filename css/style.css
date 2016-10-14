@@ -1,0 +1,176 @@
+html {
+  font-size: 62.5%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+  padding: 0 15%;
+  background-color: #E8E8E8;
+}
+
+/* Top Navigation */
+
+nav.topnav ul li:first-child {
+  display: none;
+}
+
+@media only screen and (max-width: 720px) {
+  .responsive-li {
+    display: none;
+  }
+  nav.topnav ul li:first-child {
+    display: inline-block;
+    float: none;
+  }
+}
+
+
+#topbar {
+  padding: .1rem 0 0 0;
+  color: #333A56;
+  background-color: #F7F5E6;
+  width: 100%;
+}
+
+.topnav {
+  display: inline-block;
+  background-color: #52658F;
+  font-family: 'Open Sans', sans-serif;
+  top: 0;
+  width: 100%;
+}
+
+nav.topnav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav.topnav ul li {
+  float: right;
+  background-color: #52658F;
+}
+
+nav.topnav ul li a {
+  color: #E8E8E8;
+  display: block;
+  padding: 1rem 1.4rem 1rem 1.4rem;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 2.0rem;
+}
+
+
+
+nav.topnav ul li a:hover {
+  color: #fafafa;
+  background-color: #52658F;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.25));
+}
+
+.to-top {
+  display: block;
+  float: right;
+  padding: .5rem;
+  background-color: #52658F;
+  color: #E8E8E8;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+.to-top:hover {
+  color: #fafafa;
+  background-color: #52658F;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.25));
+}
+
+h1 {
+  font-size: 3.0rem;
+  display: block;
+  padding: 0 2% 0 2%;
+  font-family: 'Domine', serif;
+}
+
+.std-paragraph {
+  padding: 0 4rem 0 4rem;
+  display: block;
+  text-align: justify;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+#about {
+  padding: 1% 4% 1% 4%;
+  color: #333A56;
+  background-color: #F7F5E6;
+  height: 64rem;
+}
+
+#experience {
+  padding: 1% 4% 1% 4%;
+  color: #E8E8E8;
+  background-color: #52658F;
+
+  height: 64rem;
+}
+
+#projects {
+  padding: 1% 4% 1% 4%;
+  color: #333A56;
+  background-color: #F7F5E6;
+  height: 64rem;
+}
+
+#contact {
+  padding: 1% 4% 1% 4%;
+  color: #E8E8E8;
+  background-color: #52658F;
+  height: 64rem;
+}
+
+#contact span {
+  padding: 1rem 0;
+  display: block;
+  font-size: 1.6rem;
+}
+
+#contact h3 {
+  display: block;
+  padding: 0 4% 0 4%;
+}
+
+#contact form {
+  display: block;
+  height: auto;
+}
+
+#mailInput {
+  display: block;
+  font-size: 1.6rem;
+}
+
+#message {
+  display: block;
+  width: 40rem;
+  height: 15rem;
+  font-size: 1.6rem;
+}
+
+button {
+  font-family: 'Open Sans', sans-serif;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 1.4rem;
+  background-color: #F7F5E6;
+  color: #52658F;
+}
+
+button:hover {
+  color: #52658F;
+  background-color: #F7F5E6;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.3));
+}
