@@ -19,7 +19,7 @@ $(function(){
       if(winSize > 720) {
         responsiveLi.css("float", "right");
         responsiveLi.css("display", "inline-block");
-        $("body").css("padding", "0 15%");
+        $("body").css("padding", "0 2rem");
         toggle = 0;
       } else {
         responsiveLi.css("display", "none")

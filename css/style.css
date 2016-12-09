@@ -5,7 +5,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  padding: 0 15%;
+  padding: 0 2rem;
   background-color: #E8E8E8;
 }
 
@@ -29,6 +29,14 @@ nav.topnav ul li:first-child {
   color: #333A56;
   background-color: #F7F5E6;
   width: 100%;
+}
+
+#topbar h1 {
+  font-size: 3.6rem;
+}
+
+h1 {
+  font-size: 3.0rem;
 }
 
 .topnav {
@@ -76,7 +84,7 @@ nav.topnav ul li a:hover {
   background-color: #52658F;
   color: #E8E8E8;
   text-decoration: none;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 
 .to-top:hover {
@@ -88,45 +96,77 @@ nav.topnav ul li a:hover {
 h1 {
   font-size: 3.0rem;
   display: block;
-  padding: 0 2% 0 2%;
+  padding: 0 2rem 0 2rem;
   font-family: 'Domine', serif;
 }
 
 .std-paragraph {
-  padding: 0 4rem 0 4rem;
+  padding: 1rem 4rem;
   display: block;
-  text-align: justify;
+  font-size: 1.8rem;
+  text-align: left;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 #about {
-  padding: 1% 4% 1% 4%;
+  padding: 1rem 4rem 1rem 4rem;
   color: #333A56;
   background-color: #F7F5E6;
-  height: 64rem;
+  height: auto;
+  overflow: auto;
+}
+
+#imageBox {
+}
+
+#imageBox img {
+  padding: 4rem;
+  float: right;
+  height: 200px;
+  width: auto;
 }
 
 #experience {
-  padding: 1% 4% 1% 4%;
+  padding: 1rem 4rem 1rem 4rem;
   color: #E8E8E8;
   background-color: #52658F;
-
-  height: 64rem;
+  height: auto;
 }
 
 #projects {
-  padding: 1% 4% 1% 4%;
+  padding: 1rem 6rem;
   color: #333A56;
   background-color: #F7F5E6;
-  height: 64rem;
+  height: auto;
+}
+
+.experience-list {
+  list-style: none;
+  padding: .8rem 6rem;
+}
+
+.experience-list li {
+    font-size: 2.2rem;
+    font-weight: 400;
+    padding: .8rem;
+}
+
+.experience-list ul {
+  list-style: square;
+}
+
+.experience-list ul li {
+  font-size: 1.7rem;
+  font-weight: 300;
+  padding: .8rem;
 }
 
 #contact {
-  padding: 1% 4% 1% 4%;
+  padding: 1rem 4rem 1rem 4rem;
   color: #E8E8E8;
   background-color: #52658F;
-  height: 64rem;
+  height: auto;
 }
 
 #contact span {
@@ -137,7 +177,7 @@ h1 {
 
 #contact h3 {
   display: block;
-  padding: 0 4% 0 4%;
+  padding: 0 4rem 0 4rem;
 }
 
 #contact form {
@@ -152,7 +192,7 @@ h1 {
 
 #message {
   display: block;
-  width: 40rem;
+  width: 70%;
   height: 15rem;
   font-size: 1.6rem;
 }

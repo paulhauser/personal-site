@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="author" content="Paul Hauser">
     <meta name="description" content="Personal site of Paul Hauser">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Paul Hauser</title>
 
@@ -19,7 +20,7 @@
     <a name="top"></a>
 
     <header id="topbar">
-      <h1>Paul Hauser</h1>
+      <h1>Paul Hauser - University of Pittsburgh CS</h1>
       <nav class="topnav">
         <ul>
           <li class="icon">
@@ -40,24 +41,56 @@
 
     <section id="about"><a name="top"></a>
       <h1>About.</h1>
+      <div id="imageBox">
+        <img src="./img/beanie.jpg" alt="Paul Hauser">
+      </div>
       <p class="std-paragraph">
-        Aspiring software developer.<br>
-
+        Born and raised in Indianapolis, based in Pittsburgh. Aspiring software developer.<br>
+      </p>
+      <p class="std-paragraph">
+        Previously worked in education and the oil and gas industry, developing leadership and communication skills.<br>
+      </p>
+      <p class="std-paragraph">
+        I plan to build a career where I can combine management skills and technical problem-solving ability.
       </p>
     </section>
 
     <section id="experience"><a name="experience"></a>
       <a class="to-top" href="#top" title="top">top&uarr;</a>
       <h1>Work Experience.</h1>
-      <ul>
+      <ul class="experience-list">
         <li>
-          Halliburton - Field Service Representative - Baroid Drilling Fluids
+          Halliburton - Field Service Representative - Baroid Drilling Fluids - Canonsburg, PA
+          <ul>
+            <li>
+              Advised customer and contractors on all aspects of operation related to drilling fluids
+            </li>
+            <li>
+              Managed logistical operations relating to drilling fluids at the rigsite, including receiving shipments of palletized chemicals, bulk materials, and petroleum based drilling fluid
+            </li>
+          </ul>
         </li>
         <li>
-          Target - Sales Floor Team Member
+          Resident Assistant - Purdue University - West Lafayette, IN
+          <ul>
+            <li>
+              Maintained a safe and inclusive community for a diverse group of 47 male residents
+            </li>
+            <li>
+              Organized social and educational programs for the 700 residents of Wiley Hall
+            </li>
+          </ul>
         </li>
         <li>
-          Secondary Science Teacher - Coahoma County High School - Clarksdale, MS
+          Teach for America Secondary Science Teacher - Coahoma County HS - Clarksdale, MS
+          <ul>
+            <li>
+              Completed intensive training in curriculum, instruction, and classroom management
+            </li>
+            <li>
+              Instructed over 100 high school students in Chemistry and Biology
+            </li>
+          </ul>
         </li>
       </ul>
 
@@ -66,19 +99,53 @@
     <section id="projects"><a name="projects"></a>
       <a class="to-top" href="#top" title="top">top&uarr;</a>
       <h1>Projects.</h1>
-      <p>Projects will be added here when I have some I want to show off!</p>
+      <ul class ="experience-list">
+        <li>
+          DBMS – Travel Agency
+          <ul>
+            <li>
+              Developed Oracle database for mock travel agency client, utilizing appropriate schema, triggers, procedures, queries
+            </li>
+            <li>
+              Connected database to Java interface using JDBC for use by end user customer or admin
+            </li>
+          </ul>
+        </li>
+        <li>
+          Personal Website
+          <ul>
+            <li>
+              Built personal website (this one!) with responsive front end using HTML5, CSS, JQuery
+            </li>
+            <li>
+              Connected to MySQL database using PHP to take messages from visitors
+            </li>
+          </ul>
+        </li>
+        <li>
+          Bug Zapper Game – Assembly Language
+          <ul>
+            <li>
+              Wrote Space Invaders-like game in MIPS assembly language
+            </li>
+            <li>
+              Used a circular queue to track events occurring on memory mapped emulated LED screen
+            </li>
+          </ul>
+        </li>
+      </ul>
     </section>
 
     <section id="contact"><a name="contact"></a>
       <a class="to-top" href="#top" title="top">top&uarr;</a>
       <h1>Contact.</h1>
 
-      <form id="contact" action="#" method="post" name="contact-form">
+      <form id="contact" action="php/contact.php" method="post">
         <span>Email:<br></span>
-        <input id="mailInput" type="email" name="mail"><br>
+        <input id="mailInput" type="email" name="contact-email"><br>
 
         <span>Leave a short message:<br></span>
-        <textarea id="message" name="message" type="text" maxlength="500"></textarea>
+        <textarea id="message" name="contact-message" type="text" maxlength="500"></textarea>
 
         <div id="buttons">
           <button type="submit">Submit</button>

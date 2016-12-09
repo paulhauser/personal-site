@@ -12,7 +12,7 @@ I plan on using the languages / technologies that we will be covering in CS 1520
   * CSS3
 ## Content
 
-I will be creating a personal website with an emphasis on getting a job. It will contain my resume and projects relevant to an employer. I'm also consedering a personal background story to explain some of the things I did in my 20's and why I'm an old person getting into programming.
+I will be creating a personal website with an emphasis on getting a job. It will contain my resume and projects relevant to an employer. I'm also considering a personal background story to explain some of the things I did in my 20's and why I'm an old person getting into programming.
 
 ## Questions?
   * Would implementing an MVC structure make the project more complex?
