@@ -1,3 +1,5 @@
+/* This is the table that was created in myphpadmin */
+
 CREATE OR REPLACE TABLE `contact` (
   `id` int(11) NOT NULL,
   `contact-email` varchar(60) NOT NULL,
